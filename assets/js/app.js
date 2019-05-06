@@ -18,9 +18,11 @@ window.onscroll = function() {
 	var currentScrollPos = window.pageYOffset;
 	//console.log('currentScrollPos:'+currentScrollPos);
 	//console.log('prevScrollpos:'+prevScrollpos);
-	if((document.documentElement.scrollTop + window.innerHeight) >= document.documentElement.scrollHeight)
+	// console.log('1:'+ (document.documentElement.scrollTop + window.innerHeight));
+	// console.log('2:'+ document.documentElement.scrollHeight);
+	// console.log('3:'+ window.innerHeight);
+	if(Math.ceil(document.documentElement.scrollTop + window.innerHeight) >= document.documentElement.scrollHeight)
   	{
-  		//console.log('botton');
   		document.querySelector("header").style.top = "0";
   	}
   	else 
