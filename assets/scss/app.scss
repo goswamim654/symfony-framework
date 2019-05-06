@@ -1,6 +1,6 @@
-$grid__bp-sm: 660;
-$grid__bp-md: 1000;
-$grid__bp-lg: 1200;
+$grid__bp-sm: 576;
+$grid__bp-md: 660;
+$grid__bp-lg: 1000;
 $grid__cols: 12;
 
 $map-grid-props: ('-sm': $grid__bp-sm, '-md': $grid__bp-md, '-lg': $grid__bp-lg);
@@ -48,10 +48,10 @@ body {
 }
 header, footer {
 	padding: 1rem;
-	width: 100%;
 	background-color: #ff6f69;
 }
 header {
+	width: 100%;
     position: fixed;
     top: 0px;
   	display: block;
