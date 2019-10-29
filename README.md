@@ -107,23 +107,3 @@ There is also an optional container with Node, NPM & Sass for building the front
         * will appear with transition
     * on page scroll end
         * will appear with transition
-
----
-
-###### Nice to have:
-* HTML
-    * Semantic outline
-* CSS
-    * Preprocessor
-        * Sass
-    * Naming convention
-        * BEM
-    * Prefixed
-        * latest 2 major browser versions
-* JS
-    * ES5 and ES6
-* Assets
-    * Development
-    * Production
-
-Columns are filled with content by the provided data :)
